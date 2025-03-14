@@ -4,7 +4,7 @@ directly from command line, as opposed to importing it into another program.
 """
 
 import argparse
-import procrationationhelper.quotes as quotes
+import procrastinationhelper.quotes as quotes
 
 
 def main():
@@ -29,4 +29,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
     

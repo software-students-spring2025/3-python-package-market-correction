@@ -4,7 +4,7 @@ Source of quotes: https://www.goodreads.com/quotes/tag/procrastination
 """
 
 import random
-from procrationationhelper.data.quotesData import quotes
+from procrastinationhelper.data.quotesData import quotes
 
 
 def get(num_quotes=1):

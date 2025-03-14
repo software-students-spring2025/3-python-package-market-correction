@@ -1,5 +1,5 @@
 import pytest
-from examplepackagefb1258 import wisdom
+from procrastinationhelper.data.quotesData import quotes
 
 
 class Tests:
@@ -40,7 +40,7 @@ class Tests:
         """
         # since get returns a random string, run it a bunch of times and verify the output
         for i in range(100):
-            actual = wisdom.get()
+            actual = quotes.get()
             assert isinstance(
                 actual, str
             ), f"Expected get() to return a string. Instead, it returned {actual}"
@@ -90,7 +90,7 @@ And the mome raths outgrabe."""
 
         # since get returns a random string, run it a bunch of times and verify the output
         for i in range(100):
-            actual = wisdom.get()
+            actual = quotes.get()
             assert (
                 actual in full_text
             ), f"Expected the text returned by get() to be from the Jabberwocky poem by Lewis Carroll.  Instead, it returned '{actual}'."

@@ -4,9 +4,9 @@ directly from command line, as opposed to importing it into another program.
 """
 
 import argparse
-import procrastinationhelper.quotes as quotes
+import quotes as quotes
 import random
-from procrastinationhelper.customexcuses import custom_excuse_templates
+from customexcuses import custom_excuse_templates
 
 def get_custom_excuse(task):
     """Returns a personalized excuse based on the task using random templates."""

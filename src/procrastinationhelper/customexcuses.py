@@ -6,3 +6,8 @@ custom_excuse_templates = [
     "I need to take a break from {task} to recharge my brain.",
     "I can't focus on {task} because I'm too busy daydreaming.",
 ]
+
+sample_tasks = [
+    "homework",
+    
+]

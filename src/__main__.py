@@ -6,6 +6,7 @@ directly from command line, as opposed to importing it into another program.
 import argparse
 import quotes as quotes
 from customexcuses import get_custom_excuse
+from get_excuse import get_excuse
 
 def main():
     """
@@ -25,6 +26,8 @@ def main():
     print("\nProcrastination Wisdom:")
     print(result)
     print("\nNote: More features coming soon!")
+
+    print("sample excuse: ", get_excuse())
 
 
 

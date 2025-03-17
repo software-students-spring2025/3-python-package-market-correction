@@ -4,8 +4,8 @@ directly from command line, as opposed to importing it into another program.
 """
 
 import argparse
-import procrastinationhelper.quotes as quotes
-
+import quotes as quotes
+from customexcuses import get_custom_excuse
 
 def main():
     """
@@ -27,7 +27,12 @@ def main():
     print("\nNote: More features coming soon!")
 
 
+
 if __name__ == "__main__":
     main()
+
+    task = input("What task are you procrastinating on? ")
+    excuse = get_custom_excuse(task)
+    print(excuse)
     
     

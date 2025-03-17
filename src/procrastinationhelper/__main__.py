@@ -5,14 +5,7 @@ directly from command line, as opposed to importing it into another program.
 
 import argparse
 import quotes as quotes
-import random
-from customexcuses import custom_excuse_templates
-
-def get_custom_excuse(task):
-    """Returns a personalized excuse based on the task using random templates."""
-    template = random.choice(custom_excuse_templates)
-    return template.format(task=task)
-
+from customexcuses import get_custom_excuse
 
 def main():
     """

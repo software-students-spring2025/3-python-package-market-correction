@@ -1,8 +1,10 @@
+"""
+Main entry point for the procrastination_helper package.
+This file is run when the package is executed directly from the command line.
+"""
 import argparse
-import quotes
-from customexcuses import get_custom_excuse
-from get_excuse import get_excuse
-from list_of_excuses import get_excuse_list
+
+from procrastination_helper import quotes, get_excuse, get_custom_excuse, get_excuse_list
 
 def get_procrastination_quotes(num_quotes):
     """

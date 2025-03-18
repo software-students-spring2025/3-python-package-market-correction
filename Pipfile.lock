@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "72a08c5a2b808a588e2fcb88a8bc4d9bf83a98ced87e614f250d8cb2658781cb"
+            "sha256": "0d7dafdac885680c7dfc10149686bed2f65e2f342381022be745397f9bc0e137"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -56,10 +56,6 @@
             "markers": "python_version >= '3.8'",
             "version": "==1.5.0"
         },
-        "procrastination-helper": {
-            "editable": true,
-            "file": "."
-        },
         "pyproject-hooks": {
             "hashes": [
                 "sha256:1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8",
@@ -113,10 +109,6 @@
             ],
             "markers": "python_version < '3.11'",
             "version": "==2.2.1"
-        },
-        "unknown": {
-            "editable": true,
-            "file": "file:///home/cl3880/nyu/sp25/swe/project3"
         }
     },
     "develop": {

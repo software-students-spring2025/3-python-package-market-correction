@@ -1,7 +1,5 @@
 import pytest
 from procrastination_helper import quotes
-from procrastination_helper.quotes import quotes as quotes_data
-
 
 
 class Tests:

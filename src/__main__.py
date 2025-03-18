@@ -1,16 +1,46 @@
-"""
-In Python packages, this file called __main__.py is run when the package is run
-directly from command line, as opposed to importing it into another program.
-"""
-
 import argparse
-import quotes as quotes
+import quotes
 from customexcuses import get_custom_excuse
 from get_excuse import get_excuse
+from list_of_excuses import get_excuse_list
+
+def get_procrastination_quotes(num_quotes):
+    """
+    Get procrastination quotes and return them.
+    """
+    return quotes.get(num_quotes=num_quotes)
+
+def display_procrastination_wisdom(quotes):
+    """
+    Display procrastination wisdom quotes.
+    """
+    print("\nProcrastination Wisdom:")
+    print(quotes)
+    print("\nNote: More features coming soon!")
+
+def display_sample_excuse():
+    """
+    Display sample excuse.
+    """
+    print("Sample excuse: ", get_excuse())
+
+def get_task_and_custom_excuse():
+    """
+    Get the task input from the user and display a custom excuse.
+    """
+    task = input("What task are you procrastinating on? ")
+    excuse = get_custom_excuse(task)
+    print(excuse)
+
+def display_random_excuses(number_of_excuses):
+    excuses = get_excuse_list(number_of_excuses)
+    print("\nHere are some random excuses for procrastination:")
+    for excuse in excuses:
+        print(f"- {excuse}")
 
 def main():
     """
-    Get procrastination quotes and print them out.
+    Main function to handle command-line arguments and get excuses.
     """
     parser = argparse.ArgumentParser(description="Get procrastination quotes")
     parser.add_argument(
@@ -20,22 +50,13 @@ def main():
         help="Number of quotes to display (default: 1)"
     )
     args = parser.parse_args()
-    
-    result = quotes.get(num_quotes=args.number)
-    
-    print("\nProcrastination Wisdom:")
-    print(result)
-    print("\nNote: More features coming soon!")
 
-    print("sample excuse: ", get_excuse())
+    procrastination_quotes = get_procrastination_quotes(args.number)
+    display_procrastination_wisdom(procrastination_quotes)
 
+    display_sample_excuse()
 
+    get_task_and_custom_excuse()
 
 if __name__ == "__main__":
     main()
-
-    task = input("What task are you procrastinating on? ")
-    excuse = get_custom_excuse(task)
-    print(excuse)
-    
-    

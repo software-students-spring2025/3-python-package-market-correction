@@ -1,5 +1,6 @@
 import pytest
 from procrastination_helper import quotes
+from procrastination_helper.data.quotesData import quotes as quotes_collection
 
 
 class Tests:
@@ -31,7 +32,7 @@ class Tests:
         Verify that the quotes returned are from our collection.
         """
         all_quotes_text = []
-        for q in quotes.quotes:
+        for q in quotes_collection:
             all_quotes_text.append(f"{q['text']} - {q['author']}")
 
         for _ in range(10):

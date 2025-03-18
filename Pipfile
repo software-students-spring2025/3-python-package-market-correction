@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pytest = "*"
 build = "*"
-procrastination_helper = {file = ".", editable = true}
+procrastination_helper = {editable = true, path = "."}
 
 [dev-packages]
 twine = "*"

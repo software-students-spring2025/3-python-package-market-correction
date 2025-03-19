@@ -13,7 +13,27 @@ sample_excuses = [
     "I accidentally hit the snooze button on my to-do list.",
     "I was busy rethinking the entire plan.",
     "My brain decided to go on a coffee break.",
-    "I got caught up in a spontaneous dance party."
+    "I got caught up in a spontaneous dance party.", 
+    "I was testing the limits of my time travel app and it took me further than expected",
+    "My houseplants staged a protest, and negotiations took a while", 
+    "I found a spider in my room and had to orchestrate a full-scale evacuation",
+    "I was busy crafting a philosophical treatise on the necessity of naps",
+    "My imaginary friend needed urgent counseling",
+    "I was conducting a taste test between two types of peanut butter",
+    "I was waiting for the stars to align—literally",
+    "I got tangled up in a heated argument over the proper way to fold a fitted sheet",
+    "I was trapped in a YouTube spiral of ‘80s music videos",
+    "I had to decipher an ancient text—I mean, my handwriting from last week",
+    "I was practicing my telepathic skills with the neighbor's dog",
+    "I accidentally created a black hole in my laundry basket", 
+    "I was compiling a comprehensive list of reasons why I shouldn’t be doing what I'm supposed to be doing", 
+    "My left and right brain were having a chess match", 
+    "I had to count all the grains of rice in my kitchen. For science", 
+    "I was too busy finding the end of the Internet", 
+    "I had to figure out why my Wi-Fi looks like a weather map", 
+    "I was learning to yodel via online tutorials", 
+    "I was waiting for my motivation to ping me back", 
+    "I got lost while tracking the migration of dust bunnies across my room."
 ]
 
 custom_excuse_templates = [

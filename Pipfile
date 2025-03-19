@@ -9,6 +9,7 @@ build = "*"
 
 [dev-packages]
 twine = "*"
+pytest = "*"
 
 [requires]
 python_version = "3"

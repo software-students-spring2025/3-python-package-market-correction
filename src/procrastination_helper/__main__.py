@@ -4,13 +4,16 @@ This file is run when the package is executed directly from the command line.
 """
 import argparse
 
-from procrastination_helper import quotes, get_excuse, get_custom_excuse, get_excuse_list
+from customexcuses import get_custom_excuse
+from get_excuse import get_excuse
+from list_of_excuses import get_excuse_list
+from quotes import get
 
 def get_procrastination_quotes(num_quotes):
     """
     Get procrastination quotes and return them.
     """
-    return quotes.get(num_quotes=num_quotes)
+    return get(num_quotes=num_quotes)
 
 def display_procrastination_wisdom(quotes):
     """

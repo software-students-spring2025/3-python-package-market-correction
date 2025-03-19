@@ -10,6 +10,7 @@ authors = [
   { name = "Chris Leu", email = "cl3880@nyu.edu" },
   { name = "Ava August", email = "aca9900@nyu.edu" },
   { name = "Keith Dusling", email = "ksd332@nyu.edu" },
+  { name = "Joel Kim", email = "jdk9137@nyu.edu" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"

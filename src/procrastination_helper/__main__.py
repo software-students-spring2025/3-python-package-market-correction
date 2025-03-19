@@ -4,10 +4,10 @@ This file is run when the package is executed directly from the command line.
 """
 import argparse
 
-from customexcuses import get_custom_excuse
-from get_excuse import get_excuse
-from list_of_excuses import get_excuse_list
-from quotes import get
+from procrastination_helper.customexcuses import get_custom_excuse
+from procrastination_helper.get_excuse import get_excuse
+from procrastination_helper.list_of_excuses import get_excuse_list
+from procrastination_helper.quotes import get
 
 def get_procrastination_quotes(num_quotes):
     """

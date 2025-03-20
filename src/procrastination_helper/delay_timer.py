@@ -27,12 +27,12 @@ def delay_timer(minutes):
             user_input = input("Do you want to extend? (yes/no): ").strip().lower()
             if user_input not in ["yes", "y"]:
                 user_bool = True
-                print("Fine, be responsible. Go do your work. 🙄")
+                print("Fine, be responsible. Go do your work.")
                 break
 
             minutes = 5
     if not user_bool:
-        print("Alright, you REALLY should start now. Maybe. 😅")
+        print("Alright, you REALLY should start now. Maybe.")
 
 # Example usage:
 if __name__ == "__main__":

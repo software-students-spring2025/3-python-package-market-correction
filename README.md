@@ -12,7 +12,7 @@
 
 ## PyPI Package
 
-**[procrastination_helper on PyPI](https://pypi.org/project/procrastination-helper/0.1.0/)**
+**[procrastination_helper on PyPI](https://pypi.org/project/procrastination-helper/0.1.2/)**
 
 ---
 

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "procrastination_helper"
 description = "A fun package to help procrastinators with excuses, quotes, and more"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name = "Chris Leu", email = "cl3880@nyu.edu" },
   { name = "Ava August", email = "aca9900@nyu.edu" },
@@ -27,9 +27,9 @@ classifiers = [
 dev = ["pytest"]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/procrastination_helper"
-"Repository" = "https://github.com/yourusername/procrastination_helper.git"
-"Bug Tracker" = "https://github.com/yourusername/procrastination_helper/issues"
+"Homepage" = "https://github.com/software-students-spring2025/3-python-package-market-correction"
+"Repository" = "https://github.com/software-students-spring2025/3-python-package-market-correction.git"
+"Bug Tracker" = "https://github.com/software-students-spring2025/3-python-package-market-correction/issues"
 
 [project.scripts]
 procrastination_helper = "procrastination_helper.__main__:main"

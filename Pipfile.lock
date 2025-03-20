@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "994e0467eef958109cdc645209cc324886b0a37761238070904c5dee31733f28"
+            "sha256": "9f87af8f7d6313fdc997da01140aa39184393979e48b48fb8c552261b0c9ce29"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,6 +55,10 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==1.5.0"
+        },
+        "procrastination-helper": {
+            "editable": true,
+            "file": "."
         },
         "pyproject-hooks": {
             "hashes": [

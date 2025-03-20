@@ -17,8 +17,6 @@ def get(num_quotes=1):
     Returns:
         str: A string containing the requested number of quotes
     """
-    print(type(quotes_collection))
-    print(quotes_collection)
     num_quotes = min(num_quotes, len(quotes_collection))
     
     if num_quotes < len(quotes_collection):

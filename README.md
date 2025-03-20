@@ -54,15 +54,72 @@ from procrastination_helper import get_excuse
 print(get_excuse())
 ```
 
-#### 5. `get_procrastination_quotes(num_quotes)`
+#### 5. `quotes.get(num_quotes)`
 Returns a specified number `num_quotes` of random motivational quotes about procrastination.
 
 ```python
-from procrastination_helper import get_procrastination_quotes
-print(get_procrastination_quotes(2))
+from procrastination_helper import quotes
+print(quotes.get(num_quotes=2))
 ```
 
+## Using the Interactive Interface
+
+After installing the package, you can use the interactive command-line interface:
+
+### Using pipenv
+```bash
+# Install the package
+pipenv install procrastination-helper
+
+# Run the interactive interface
+pipenv run python -m procrastination_helper
+```
+
+### Using pip
+```bash
+# Install the package
+pip install procrastination-helper
+
+# Run the interactive interface
+python -m procrastination_helper
+```
+
+You can also use command-line arguments for specific features:
+
+```bash
+# Get 3 procrastination quotes
+pipenv run python -m procrastination_helper --feature quotes --number 3
+
+# Set a delay timer for 5 minutes
+pipenv run python -m procrastination_helper --feature delay --time 5
+```
+
+## Running the Example Program
+
 **[Example Program](./example.py)**
+
+---
+
+1. #### Install the procrastination_helper package
+```bash
+pipenv install procrastination-helper
+```
+
+2. #### Clone the repository to get the example.py
+```bash
+git clone https://github.com/software-students-spring2025/3-python-package-market-correction.git
+cd 3-python-package-market-correction
+```
+
+3. #### Install the package in the repository's environment
+```bash
+pipenv install procrastination-helper
+```
+
+4. #### Run the example
+```bash
+pipenv run python example.py
+```
 
 ---
 

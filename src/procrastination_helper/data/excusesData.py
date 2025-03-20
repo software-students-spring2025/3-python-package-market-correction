@@ -33,7 +33,8 @@ sample_excuses = [
     "I had to figure out why my Wi-Fi looks like a weather map", 
     "I was learning to yodel via online tutorials", 
     "I was waiting for my motivation to ping me back", 
-    "I got lost while tracking the migration of dust bunnies across my room."
+    "I got lost while tracking the migration of dust bunnies across my room.",
+    "I was distracted by a conspiracy theory that my coffee is secretly decaf."
 ]
 
 custom_excuse_templates = [

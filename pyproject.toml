@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "procrastination_helper"
 description = "A fun package to help procrastinators with excuses, quotes, and more"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name = "Chris Leu", email = "cl3880@nyu.edu" },
   { name = "Ava August", email = "aca9900@nyu.edu" },

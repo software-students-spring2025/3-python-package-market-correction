@@ -1,7 +1,7 @@
 import pytest
 import random
 from procrastination_helper.list_of_excuses import get_excuse_list
-from procrastination_helper.data.sample_excuses import sample_excuses
+from procrastination_helper.data.excusesData import sample_excuses
 
 def test_get_excuse_list_returns_correct_number():
     """
